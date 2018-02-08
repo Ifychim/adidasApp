@@ -11,13 +11,9 @@ import {BlackUnderline} from '../components/UnderLines';
 
 export default class HomeScreen extends Component {
 
-    handleForgotPassword = () => {
-        this.props.navigation.navigate('ForgotPassword');
-    };
-    handlePressSignUp = () => {
-        this.props.navigation.navigate('SignUp');
-    };
-    handleUserSignIn () {
+
+
+    handleUserSignIn = () => {
         console.log('Sign In Tapped');
     };
 
@@ -56,13 +52,13 @@ export default class HomeScreen extends Component {
 
 
                     <PasswordFooter
-                    onPress= {this.handleForgotPassword}
+                    onPress= {()=> this.props.navigation.navigate('ForgotPassword')}
                     >
                         Forgot Password?
                     </PasswordFooter>
 
                     <SignUpFooter
-                    onPress = {this.handlePressSignUp}>
+                    onPress = {()=>this.props.navigation.navigate('SignUp')}>
                     Sign Up
                     </SignUpFooter>
 
