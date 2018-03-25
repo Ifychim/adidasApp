@@ -11,8 +11,6 @@ import {BlackUnderline} from '../components/UnderLines';
 
 export default class HomeScreen extends Component {
 
-
-
     handleUserSignIn = () => {
         console.log('Sign In Tapped');
     };
@@ -22,7 +20,7 @@ export default class HomeScreen extends Component {
         <HomeScreenContainer>
                     <Image
                     style = {{height: 150, width: 150, alignSelf: 'center', marginTop: 15}}
-                    source = {require('../assets/Images/homeLogo.png')}
+                    source = {require('../assets/Images/Logos/homeLogo.png')}
                     />
 
                     <HomeHeader>

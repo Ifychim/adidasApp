@@ -17,7 +17,7 @@ export default class ForgotPasswordScreen extends Component {
  
                  <Image
                     style = {{height: 80, width: 80, alignSelf: 'center', marginTop: 15}}
-                    source = {require('../assets/Images/homeLogo.png')}
+                    source = {require('../assets/Images/Logos/homeLogo.png')}
                 />
            
                 <Input

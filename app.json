@@ -3,7 +3,7 @@
     "sdkVersion": "25.0.0",
 
     "splash": {
-      "image" : "./app/assets/Images/splash/adidasAppSplash.png",
+      "image" : "./app/assets/Images/Splash/adidasAppSplash.png",
       "resizeMode":  "cover"
       
     }

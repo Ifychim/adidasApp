@@ -1,4 +1,5 @@
 import HomeScreenContainer from './HomeScreenContainer';
+import CurrencyConverterContainer from './CurrencyConverterContainer';
 import styles from './styles';
 
-export {HomeScreenContainer, styles};
+export {HomeScreenContainer, CurrencyConverterContainer, styles};

@@ -1,4 +1,4 @@
-import  {StackNavigator} from 'react-navigation';
+import  {StackNavigator, DrawerNavigator, } from 'react-navigation';
 
 import HomeScreen from '../screens/HomeScreen';
 import SignUpScreen from '../screens/SignUpScreen';
@@ -16,15 +16,17 @@ export default StackNavigator(
     SignUp: {
         screen: SignUpScreen,
         navigationOptions: {
-            headerTitle: 'Sign Up'
+            headerTitle: 'Sign Up',
         }
         
     },
     ForgotPassword: {
         screen: ForgotPasswordScreen,
         navigationOptions: {
-            headerTitle: 'Forgot Password'
-        }
+            headerTitle: 'Forgot Password',
+            headerTint: '#000000'
+            
+        },
     }
 
 }, 

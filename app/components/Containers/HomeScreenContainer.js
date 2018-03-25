@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {SafeAreaView, StatusBar, KeyboardAvoidingView} from 'react-native';
+import {SafeAreaView, StatusBar, KeyboardAvoidingView, Keyboard, TouchableWithoutFeedback} from 'react-native';
 
 import styles from './styles';
 
@@ -7,6 +7,7 @@ import styles from './styles';
 const HomeScreenContainer = ({children}) => {
     return(
      
+        <TouchableWithoutFeedback onPress = {()=> Keyboard.dismiss()}>
             <SafeAreaView style = {styles.homeContainer}>
                 <StatusBar barStyle = "dark-content"/>
                 <KeyboardAvoidingView 
@@ -17,7 +18,7 @@ const HomeScreenContainer = ({children}) => {
                 </KeyboardAvoidingView>
                 
             </SafeAreaView>
-
+    </TouchableWithoutFeedback>
         
         
     );

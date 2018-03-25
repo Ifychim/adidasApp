@@ -6,6 +6,12 @@ export default EStyleSheet.create({
     homeContainer:{
         flex:1,
         backgroundColor: '$primaryBackground',
+    },
 
+    //Currency Converter Screen Styles
+    currencyContainer: {
+        flex:1,
+        backgroundColor: '$black'
     }
+
 });
